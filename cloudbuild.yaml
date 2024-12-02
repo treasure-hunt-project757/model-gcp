@@ -1,0 +1,12 @@
+# steps:
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/treasure-hunt-project-430518/custom-fastapi/custom-fastapi:latest', '.']
+#   - name: 'gcr.io/cloud-builders/docker'
+#     args: ['push', 'us-central1-docker.pkg.dev/treasure-hunt-project-430518/custom-fastapi/custom-fastapi:latest']
+
+
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/backend-servers-439810/custom-fastapi/custom-fastapi:latest', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/backend-servers-439810/custom-fastapi/custom-fastapi:latest']
