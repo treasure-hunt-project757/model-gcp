@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: custom-fastapi-service
   PROJECT_ID: iucc-treasure-hunt-at-sheba-mc
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/backend-servers-439810/custom-fastapi/custom-fastapi
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/iucc-treasure-hunt-at-sheba-mc/custom-fastapi/custom-fastapi
   REGION: us-central1
 
 on:
