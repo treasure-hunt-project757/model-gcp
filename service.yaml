@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-central1-docker.pkg.dev/backend-servers-439810/custom-fastapi/custom-fastapi:latest
+        - image: us-central1-docker.pkg.dev/iucc-treasure-hunt-at-sheba-mc/custom-fastapi/custom-fastapi:latest
           env:
           ports:
             - containerPort: 4000

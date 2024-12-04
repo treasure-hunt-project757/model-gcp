@@ -9,7 +9,7 @@ from src.models.schemas import DetectableObject
 import tempfile
 
 storage_client = storage.Client()
-BUCKET_NAME = "project-files-storage-clone"
+BUCKET_NAME = "treasure-hunt-project-uni-bucket"
 
 
 def check_gcs_connection():
